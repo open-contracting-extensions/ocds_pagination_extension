@@ -1,0 +1,25 @@
+{
+  "required": null,
+  "properties": {
+    "links": {
+      "type": "object",
+      "properties": {
+        "all": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "next": {
+          "type": "string",
+          "format": "uri"
+        },
+        "prev": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  }
+}
