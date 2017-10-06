@@ -1,5 +1,5 @@
 {
-  "required": null,
+  "required": [],
   "properties": {
     "links": {
       "type": "object",
