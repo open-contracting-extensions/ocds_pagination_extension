@@ -8,3 +8,7 @@ It has the changes to the core schema.
 
 
 The links section is described in https://github.com/open-contracting/api-specification.
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
