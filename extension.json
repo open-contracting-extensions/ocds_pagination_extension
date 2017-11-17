@@ -1,1 +1,11 @@
-{"name":"API Extension","desription":"Changes to the schemas to make OCDS data more suitable for serving through an API."}
+{
+  "name": {
+    "en": "API Extension"
+  },
+  "description": {
+    "en": "Changes to the schemas to make OCDS data more suitable for serving through an API."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting/api_extension"
+  }
+}
