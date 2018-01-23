@@ -5,7 +5,7 @@ Changes to the schemas to make OCDS data more suitable for serving through an AP
 It has the changes to the core schema.
 
 * Add a [links section](https://github.com/open-contracting/api-specification) to describe pagination.
-* It adds a packageMetadata section to releases/records.  This is because for an API, package metadata may be vary in each release/record and can not be applied to all results in an API. i.e there may be a variaty of licenses in a single result.
+* It adds a packageMetadata section to releases/records.  This is because for an API, package metadata may be vary in each release/record and can not be applied to all results in an API. i.e there may be a variety of licenses in a single result.
 * It removes mandatory metadata fields from the release/record package as its is now possible (due to the previous change) for this data to be in the release/records themselves.
 
 ## Issues
