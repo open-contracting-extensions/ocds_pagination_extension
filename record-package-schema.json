@@ -26,6 +26,8 @@
     "record": {
       "properties": {
         "packageMetadata": {
+          "title": "Package metadata",
+          "description": "Package metadata is hoisted from the package-level to the record-level in APIs.",
           "type": "object",
           "properties": {
             "uri": {
@@ -35,11 +37,13 @@
               "format": "uri"
             },
             "publishedDate": {
+              "title": "Published date",
               "description": "The date that this package was published. Ideally this should be the latest date that there is release information in this package.",
               "type": "string",
               "format": "date-time"
             },
             "publisher": {
+              "title": "Publisher",
               "description": "Information to uniquely identify the publisher of this package.",
               "type": "object",
               "properties": {
@@ -79,6 +83,7 @@
               ]
             },
             "license": {
+              "title": "License",
               "description": "A link to the license that applies to the data in this package. A Public Domain Dedication or [Open Definition Conformant](http://opendefinition.org/licenses/) license is strongly recommended. The canonical URI of the license should be used. Documents linked from this file may be under other license conditions. ",
               "type": [
                 "string",
@@ -87,6 +92,7 @@
               "format": "uri"
             },
             "publicationPolicy": {
+              "title": "Publication policy",
               "description": "A link to a document describing the publishers [publication policy](http://standard.open-contracting.org/latest/en/implementation/publication_policy/).",
               "type": [
                 "string",
