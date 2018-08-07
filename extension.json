@@ -10,5 +10,10 @@
   },
   "compatibility": [
     "1.1"
+  ],
+  "schemas": [
+    "record-package-schema.json",
+    "release-package-schema.json",
+    "release-schema.json"
   ]
 }
