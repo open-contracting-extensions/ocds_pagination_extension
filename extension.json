@@ -6,7 +6,7 @@
     "en": "Changes to the schemas to make OCDS data more suitable for serving through an API."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting/api_extension"
+    "en": "https://github.com/open-contracting-extensions/ocds_api_extension"
   },
   "compatibility": [
     "1.1"
