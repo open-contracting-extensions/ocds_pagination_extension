@@ -5,6 +5,10 @@
       "type": "object",
       "properties": {
         "all": {
+          "deprecated": {
+            "deprecatedVersion": "2020-04-15",
+            "description": "Publishers are not expected to provide a list of all packages."
+          },
           "type": "array",
           "items": {
             "type": "string",

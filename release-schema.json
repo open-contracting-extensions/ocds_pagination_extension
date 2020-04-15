@@ -3,7 +3,7 @@
     "packageMetadata": {
       "deprecated": {
         "deprecatedVersion": "2020-04-15",
-        "description": "[See discussion](https://github.com/open-contracting/standard/issues/325)"
+        "description": "This field conflicts with the immutability of releases. [See discussion](https://github.com/open-contracting/standard/issues/325)."
       },
       "title": "Package metadata",
       "description": "Package metadata is hoisted from the package-level to the release-level in APIs.",

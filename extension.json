@@ -1,12 +1,12 @@
 {
   "name": {
-    "en": "API Extension"
+    "en": "Pagination"
   },
   "description": {
     "en": "Adds a links object to packages, to support pagination."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting-extensions/ocds_api_extension"
+    "en": "https://extensions.open-contracting.org/en/extensions/pagination/"
   },
   "compatibility": [
     "1.1"

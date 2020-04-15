@@ -1,4 +1,4 @@
-# API extension
+# Pagination
 
 Adds a links object to packages, to support pagination.
 
@@ -6,9 +6,8 @@ Adds a links object to packages, to support pagination.
 
 The top-level `links` object in release packages and record packages has three fields:
 
-* `next`: A URL to the next sequential package.
-* `prev`: A URL to the previous sequential package.
-* `all`: An array of URLs, if the URLs of all packages are known. This can be used, for example, if the publisher creates packages on a schedule (e.g. daily, weekly, monthly, annually)
+* `next`: A URL to the next sequential package
+* `prev`: A URL to the previous sequential package
 
 To construct the `next` and/or `prev` URLs, it is encouraged to use query string parameters like:
 
@@ -18,7 +17,7 @@ To construct the `next` and/or `prev` URLs, it is encouraged to use query string
 It is discouraged to use `page=NUMBER` with results ordered in reverse chronology, because:
 
 * A given page won't return the same results over time. `page=1` will return different results today, next week, and next year.
-* Usser can receive duplicate results while paginating. For example, if a new release is published to page 1 while users are paginating, then the result at the bottom of each page will be moved to the top of the following page.
+* Users can receive duplicate results while paginating. For example, if a new release is published to page 1 while users are paginating, then the result at the bottom of each page will be moved to the top of the following page.
 * It is harder for users to synchronize with the API. With `since` or `offset`, users can retrieve new results by submitting the timestamp or offset of their last request. With `page`, users need to determine which results are new or old.
 
 Reference: [HTML link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types), [18F API Standards](https://github.com/18F/api-standards#pagination), [Government of Canada Standards on APIs](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/government-canada-standards-apis.html), [Government of Ontario API Guidelines](https://github.com/ongov/API-Guidelines/blob/develop/API-Guidelines.md#implement-pagination-and-data-segmentation), [OpenActive Realtime Paged Data Exchange](https://www.openactive.io/realtime-paged-data-exchange/#overall-approach).
@@ -59,4 +58,5 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-04-15
 
+* Deprecate `links.all`.
 * Deprecate `packageMetadata`.
