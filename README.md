@@ -35,7 +35,7 @@ A publisher has a service to search releases by date, and his publication includ
           "uid": "09506232",
           "name": "Open Data Services Co-operative Limited",
           "uri": "https://standard.open-contracting.org/examples/"
-        },
+        }
       }
     },
     {
@@ -53,7 +53,7 @@ A publisher has a service to search releases by date, and his publication includ
           "scheme": "GB-COH",
           "uid": "012345",
           "name": "Tender Data Services"
-        },
+        }
       }
     }
   ],
