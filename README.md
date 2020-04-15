@@ -61,7 +61,6 @@ A publisher has a service to search releases by date, and his publication includ
     "next": "https://raw.githubusercontent.com/open-contracting/api-specification/master/multiple-file-api-next/releases-2015.json"
   }
 }
-
 ```
 
 ## Issues
