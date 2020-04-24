@@ -29,7 +29,8 @@
             "name": {
               "title": "Name",
               "description": "The name of the organization or department responsible for publishing this data.",
-              "type": "string"
+              "type": "string",
+              "minLength": 1
             },
             "scheme": {
               "title": "Scheme",
@@ -37,7 +38,8 @@
               "type": [
                 "string",
                 "null"
-              ]
+              ],
+              "minLength": 1
             },
             "uid": {
               "title": "uid",
@@ -45,7 +47,8 @@
               "type": [
                 "string",
                 "null"
-              ]
+              ],
+              "minLength": 1
             },
             "uri": {
               "title": "URI",
@@ -59,7 +62,8 @@
           },
           "required": [
             "name"
-          ]
+          ],
+          "minProperties": 1
         },
         "license": {
           "title": "License",
@@ -79,7 +83,8 @@
           ],
           "format": "uri"
         }
-      }
+      },
+      "minProperties": 1
     }
   }
 }
