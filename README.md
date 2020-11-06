@@ -56,6 +56,11 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2020-11-05
+
+* Remove `links.all`.
+* Remove `packageMetadata`.
+
 ### 2020-04-24
 
 * Add `minProperties`, `minItems` and/or `minLength` properties.
