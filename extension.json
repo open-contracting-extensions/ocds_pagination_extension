@@ -13,8 +13,7 @@
   ],
   "schemas": [
     "record-package-schema.json",
-    "release-package-schema.json",
-    "release-schema.json"
+    "release-package-schema.json"
   ],
   "contactPoint": {
     "name": "Open Contracting Partnership",
