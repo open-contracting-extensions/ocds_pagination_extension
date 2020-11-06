@@ -22,7 +22,7 @@ It is discouraged to use `page=NUMBER` with results ordered in reverse chronolog
 
 Reference: [HTML link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types), [18F API Standards](https://github.com/18F/api-standards#pagination), [Government of Canada Standards on APIs](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/government-canada-standards-apis.html), [Government of Ontario API Guidelines](https://github.com/ongov/API-Guidelines/blob/develop/API-Guidelines.md#implement-pagination-and-data-segmentation), [OpenActive Realtime Paged Data Exchange](https://www.openactive.io/realtime-paged-data-exchange/#overall-approach).
 
-### Example
+## Example
 
 A publisher has a large number of releases. Instead of gathering them into one release package, it segments them into multiple release packages, via an API with pagination. The `links.next` field provides the link to the next page.
 
